@@ -2,6 +2,8 @@ import { createContext, useState } from "react";
 
 /* https://stackoverflow.com/questions/60866924/how-to-pass-multiple-states-through-react-context-api */
 
+/* INSTALL REACT-ROUTER-DOM */
+
 export const UserContext = createContext();
 /* this get fed straight into UserProvider, and THIS IS WHAT GETS IMPORTED INTO OTHER PAGES */
 
