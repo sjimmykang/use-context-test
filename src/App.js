@@ -2,8 +2,7 @@ import { Routes, Route, Link } from 'react-router-dom';
 import './App.css';
 import Home from './Components/Home';
 import About from './Components/About';
-import React from 'react';
-import { useContext } from 'react';
+import React, { useContext } from 'react';
 import { UserContext } from './Components/UserProvider';
 
 
